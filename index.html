@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Solar System</title>
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+      }
+      #canvas-container {
+        width: 100%;
+        height: 100vh;
+        display: block;
+      }
+    </style>
+        <script type="importmap">
+          {
+              "imports": {
+                  "three": "./node_modules/three/build/three.module.js",
+                  "three/examples/jsm/controls/OrbitControls":"./jsm/controls/OrbitControls.js",
+                  "three/examples/jsm/libs/stats.module":"./jsm/libs/stats.module.js"
+              }
+          }
+      </script>
+  
+  </head>
+  <body>
+    <div id="canvas-container"></div>
+    <!-- Load the main application module -->
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
