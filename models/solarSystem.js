@@ -93,14 +93,14 @@ export default class SolarSystem {
 
             if (planetName) {
                 console.log(`You clicked on: ${planetName}`);
-                alert(`You clicked on: ${planetName}`); // Show popup
+                // alert(`You clicked on: ${planetName}`); // Show popup
             }
-            if (planetName === 'Object_8') {  
-              this.loadPlanetModel('solar.glb'); // Load Mercury
-          }
-          if (planetName === 'Object_11') {  
-            this.loadPlanetModel('earth.glb'); // Load Mercury
-        }
+        //     if (planetName === 'Object_8') {  
+        //       this.loadPlanetModel('solar.glb'); // Load Mercury
+        //   }
+        //   if (planetName === 'Object_11') {  
+        //     this.loadPlanetModel('earth.glb'); // Load Mercury
+        // }
         }
     });
 }
